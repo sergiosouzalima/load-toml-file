@@ -1,0 +1,8 @@
+[config]
+source_file = "Connections.csv"
+target_file = "result_connections.csv"
+source_file_skip_rows = 3
+email_validation = true
+filter_for = ["HR", "RH", "Human Resources", "Recursos Humanos", "Talent", "Talento", "Talentos", 
+              "Recruiter", "Recrutador", "Recrutadora", "Gente", "People", "Atraction", 
+              "Atração", "Benefit", "Benefits", "Benefício", "Benefícios"]
