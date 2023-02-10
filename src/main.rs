@@ -38,7 +38,7 @@ fn main() {
             source_file_skip_rows = 3
             email_validation = true
             filter_for = ["HR", "RH", "Human Resources", "Recursos Humanos", "Talent", "Talento", "Talentos", 
-                          "Recruiter", "Recrutador", "Recrutadora", "Gente", "People", "Atraction", 
+                          "Recruiter", "Recrutador", "Recrutadora", "Gente", "People", "Attraction", 
                           "Atração", "Benefit", "Benefits", "Benefício", "Benefícios"]
         "#};
         println!("Creating config file {}....", CONFIG_FILE_NAME);
